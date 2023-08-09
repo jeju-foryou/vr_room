@@ -965,7 +965,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "도남해모로리치힐아파트 VR룸",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
