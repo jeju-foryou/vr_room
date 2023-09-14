@@ -1,0 +1,14 @@
+
+dc 경로
+
+git init
+
+git remote -v로 remote 위치 확인
+
+git remote add origin https://github.com/jeju-foryou/vr_room.git
+
+git add 경로
+
+git commit -m "메시지"
+
+git push origin master
