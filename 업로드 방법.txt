@@ -1,13 +1,17 @@
+style.css 파일 실행 후 .link-hotspot-toolti의 opacity를 0에서 1로 변경
 
-dc 경로
+현재 폴더 마우스 오른클릭 후 Git Bash Here 클릭
+
 
 git init
 
 git remote -v로 remote 위치 확인
 
-git remote add origin https://github.com/jeju-foryou/vr_room.git
+git remote remove origin 기존에 연결되어 있는 원격 저장소와의 연결을 해제
 
-git add 경로
+git remote add origin https://github.com/jeju-foryou/vr_room.git git hub 저장소와 연결
+
+git add . 현재 위치 추가
 
 git commit -m "메시지"
 
