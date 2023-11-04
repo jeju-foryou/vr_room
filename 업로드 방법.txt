@@ -16,3 +16,7 @@ git add . 현재 위치 추가
 git commit -m "메시지"
 
 git push origin master
+
+
+pages 주소
+https://jeju-foryou.github.io/vr_room/
