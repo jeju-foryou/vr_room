@@ -209,7 +209,7 @@ var APP_DATA = {
           "yaw": 2.9952694264898536,
           "pitch": -0.24849695703225905,
           "rotation": 0,
-          "target": "13-2-"
+          "target": "13--"
         }
       ],
       "infoHotspots": [
@@ -656,8 +656,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "13-2-",
-      "name": "2층 계단",
+      "id": "13--",
+      "name": "복층 계단",
       "levels": [
         {
           "tileSize": 256,
@@ -685,23 +685,29 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
+          "yaw": 1.8638808486168976,
+          "pitch": 0.6063031044014071,
+          "rotation": 3.141592653589793,
+          "target": "3-1-"
+        },
+        {
           "yaw": 0.1784700585593022,
           "pitch": 0.19696927408338638,
           "rotation": 0,
-          "target": "14-2-"
+          "target": "14--"
         },
         {
           "yaw": -1.6400020819329075,
           "pitch": 0.010485203894369022,
           "rotation": 4.71238898038469,
-          "target": "15-2-"
+          "target": "15--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "14-2-",
-      "name": "2층 작은방",
+      "id": "14--",
+      "name": "복층 작은방",
       "levels": [
         {
           "tileSize": 256,
@@ -732,14 +738,14 @@ var APP_DATA = {
           "yaw": -0.47472089632173464,
           "pitch": 0.2205691726981236,
           "rotation": 0,
-          "target": "13-2-"
+          "target": "13--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "15-2-",
-      "name": "2층 거실",
+      "id": "15--",
+      "name": "복층 거실",
       "levels": [
         {
           "tileSize": 256,
@@ -770,32 +776,32 @@ var APP_DATA = {
           "yaw": 0.06270592531503638,
           "pitch": 0.021242351752327693,
           "rotation": 0,
-          "target": "18-2-"
+          "target": "18--"
         },
         {
           "yaw": -1.3753784653713197,
           "pitch": 0.03862247533363394,
           "rotation": 0,
-          "target": "17-2-"
+          "target": "17--"
         },
         {
           "yaw": -1.1383721181017812,
           "pitch": -0.046268663733743054,
           "rotation": 1.5707963267948966,
-          "target": "13-2-"
+          "target": "13--"
         },
         {
           "yaw": 1.094608054584679,
           "pitch": 0.04958408556205285,
           "rotation": 0,
-          "target": "16-2-"
+          "target": "16--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "16-2-",
-      "name": "2층 안쪽방",
+      "id": "16--",
+      "name": "복층 안쪽방",
       "levels": [
         {
           "tileSize": 256,
@@ -826,14 +832,14 @@ var APP_DATA = {
           "yaw": -1.1026453368917402,
           "pitch": 0.021040710219020653,
           "rotation": 0,
-          "target": "15-2-"
+          "target": "15--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "17-2-",
-      "name": "2층 화장실",
+      "id": "17--",
+      "name": "복층 화장실",
       "levels": [
         {
           "tileSize": 256,
@@ -864,14 +870,14 @@ var APP_DATA = {
           "yaw": -0.5301396791413033,
           "pitch": -0.027400934751021566,
           "rotation": 1.5707963267948966,
-          "target": "15-2-"
+          "target": "15--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "18-2-",
-      "name": "2층 테라스",
+      "id": "18--",
+      "name": "복층 테라스",
       "levels": [
         {
           "tileSize": 256,
@@ -902,7 +908,7 @@ var APP_DATA = {
           "yaw": -1.7746266678386746e-9,
           "pitch": 0.015542793063135107,
           "rotation": 0,
-          "target": "15-2-"
+          "target": "15--"
         }
       ],
       "infoHotspots": [
