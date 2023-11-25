@@ -62,9 +62,9 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.4582176111446064,
+        "pitch": 0.02202877960839089,
+        "fov": 1.3635740115987254
       },
       "linkHotspots": [
         {
@@ -80,6 +80,12 @@ var APP_DATA = {
           "pitch": -0.33127299063121995,
           "title": "중문 동작감지센서",
           "text": "자동중문"
+        },
+        {
+          "yaw": 0.589299190394641,
+          "pitch": -0.21796260250306077,
+          "title": "현관문",
+          "text": "<span style=\"font-size: 16px; background-color: rgba(103, 115, 131, 0.8);\">현관문</span><br>"
         }
       ]
     },
@@ -107,9 +113,9 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.713166551960086,
+        "pitch": 0.008421691086518024,
+        "fov": 1.3635740115987254
       },
       "linkHotspots": [
         {
@@ -119,8 +125,8 @@ var APP_DATA = {
           "target": "3-1-"
         },
         {
-          "yaw": 2.6394306354721504,
-          "pitch": 0.10498892585668429,
+          "yaw": 2.7145583528967245,
+          "pitch": 0.09121887441404652,
           "rotation": 0,
           "target": "1-1-"
         }
@@ -279,6 +285,12 @@ var APP_DATA = {
           "pitch": -0.07759212631540535,
           "rotation": 1.5707963267948966,
           "target": "8-1-"
+        },
+        {
+          "yaw": 2.5258537474844216,
+          "pitch": 0.05044883915215692,
+          "rotation": 4.71238898038469,
+          "target": "3-1-"
         }
       ],
       "infoHotspots": [
@@ -314,11 +326,18 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.5553163287226397,
+        "pitch": 0.07100844159075059,
+        "fov": 1.3635740115987254
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -0.7884665309056089,
+          "pitch": 0.03185836571230993,
+          "rotation": 6.283185307179586,
+          "target": "3-1-"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -648,11 +667,18 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.9277096254831392,
+        "pitch": 0.07270779848107978,
+        "fov": 1.3635740115987254
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.8168798218652622,
+          "pitch": -0.023438910258224865,
+          "rotation": 4.71238898038469,
+          "target": "3-1-"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -679,9 +705,9 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.7137361227082,
+        "pitch": 0.24563467508806447,
+        "fov": 1.3635740115987254
       },
       "linkHotspots": [
         {
@@ -729,9 +755,9 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.3732319477341761,
+        "pitch": 0.1660165349278806,
+        "fov": 1.3635740115987254
       },
       "linkHotspots": [
         {
@@ -767,9 +793,9 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.146425322387742,
+        "pitch": 0.05767412907450087,
+        "fov": 1.3635740115987254
       },
       "linkHotspots": [
         {
@@ -797,7 +823,20 @@ var APP_DATA = {
           "target": "16--"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.06146822316349798,
+          "pitch": -0.3346212156369788,
+          "title": "빔프로젝터 스크린(포함)",
+          "text": "<span style=\"font-size: 16px; background-color: rgba(103, 115, 131, 0.8);\">빔프로젝터 스크린(포함)</span>"
+        },
+        {
+          "yaw": 2.8451844145702694,
+          "pitch": -0.3108455145762967,
+          "title": "빔프로젝터(포함)",
+          "text": "<span style=\"font-size: 16px; background-color: rgba(103, 115, 131, 0.8);\">빔프로젝터(포함)</span><br>"
+        }
+      ]
     },
     {
       "id": "16--",
@@ -899,8 +938,8 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": -0.028369206745388453,
-        "pitch": -0.059852658048470175,
+        "yaw": -0.025683745887292275,
+        "pitch": -0.08969832724899618,
         "fov": 1.3635740115987254
       },
       "linkHotspots": [
