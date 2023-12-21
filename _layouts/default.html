@@ -8,18 +8,6 @@
     <header>
       <!-- 헤더 내용 -->
     </header>
-    <nav>
-      <ul>
-        {% for page in site.pages %}
-        {% assign path_segments = page.path | split: '/' %}
-        {% if path_segments.size > 1 %}
-          {% unless path_segments.first == 'main' or path_segments.first == 'assets' %}
-            <li><a href="https://jeju-foryou.github.io/vr_room/{{ path_segments.first }}">{{ path_segments.first }}</a></li>
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
-        </ul>
-    </nav>
     <main>
       {{ content }}
     </main>
