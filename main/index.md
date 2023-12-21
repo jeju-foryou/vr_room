@@ -7,7 +7,6 @@ title: 메인 페이지
 
 다음은 각 동네 페이지로의 링크입니다:
 
-{% raw %}
 <ul>
 {% for page in site.pages %}
     {% if page.path contains 'svr_room/' %}
@@ -15,4 +14,3 @@ title: 메인 페이지
     {% endif %}
 {% endfor %}
 </ul>
-{% endraw %}
