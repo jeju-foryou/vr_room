@@ -7,7 +7,7 @@ title: 메인 페이지
 
 다음은 각 매물 vr 페이지로의 링크입니다:
 
-<!-- <ul>
+<ul>
         {% for page in site.pages %}
         {% assign path_segments = page.path | split: '/' %}
         {% if path_segments.size > 1 %}
@@ -16,11 +16,4 @@ title: 메인 페이지
           {% endunless %}
         {% endif %}
       {% endfor %}
-</ul> -->
-<ul>
-  {% for page in site.pages %}
-    {% if page.title %}
-      <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-    {% endif %}
-  {% endfor %}
 </ul>
