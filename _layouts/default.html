@@ -12,7 +12,7 @@
     <nav>
       <ul>
         {% for page in site.pages %}
-          <li><a href="{{ page.path }}">{{ page.path }}</a></li>
+          <li><a href="{{ page.path | split: '/' | first }}">{{ page.path | split: "/" | first }}</a></li>
         {% endfor %}
         </ul>
     </nav>
