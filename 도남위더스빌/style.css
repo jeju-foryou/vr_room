@@ -433,10 +433,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 /* Info hotspot */
 
 .info-hotspot {
-  line-height: 1.2em;
-  opacity: 0.9;
-  -webkit-transition: opacity 0.2s 0.2s;
-  transition: opacity 0.2s 0.2s;
+  opacity: 1;
 }
 
 .no-touch .info-hotspot:hover {
@@ -509,24 +506,10 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   position: absolute;
   left: 40px;
   top: 0;
-  width: 0;
+  width: 220px;  /* width 수정 */
   height: 40px;
-  padding: 0;
+  padding: 0 5px;  /* padding 수정 */
   overflow: hidden;
-  -webkit-transition: width 0s 0.4s,
-                      padding 0s 0.4s;
-  transition: width 0s 0.4s,
-              padding 0s 0.4s;
-}
-
-.desktop .info-hotspot.visible .info-hotspot-title-wrapper,
-.desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
-  width: 220px;
-  padding: 0 5px;
-  -webkit-transition: width 0s 0.4s,
-                      padding 0s 0.4s;
-  transition: width 0s 0.4s,
-              padding 0s 0.4s;
 }
 
 .info-hotspot .info-hotspot-title-wrapper:before {
