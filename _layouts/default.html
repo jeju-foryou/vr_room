@@ -12,12 +12,7 @@
     <nav>
       <ul>
         {% for page in site.pages %}
-          <div>site: {{site}}</div>
-          <div>page: {{page}}</div>
-          <div>site.baseurl: {{site.baseurl}}</div>
-          <div>page.path: {{page.path}}</div>
-          <div>page.name: {{page.name}}</div>
-          <div>page.dir: {{page.dir}}</div>
+          <li><a href="{{ page.path }}">{{ page.path }}</a></li>
         {% endfor %}
         </ul>
     </nav>
