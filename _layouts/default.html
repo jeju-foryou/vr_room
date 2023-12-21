@@ -12,10 +12,9 @@
     <nav>
       <ul>
         {% for page in site.pages %}
-          {% if page.name == 'index.html' %}
-            <li><a href="{{ site.baseurl }}/{{ page.path }}">{{ page.dir }}</a></li>
-          {% endif %}
+          <li><a href="{{ site.baseurl }}/{{ page.path }}">{{ page.name }}</a></li>
         {% endfor %}
+        </ul>
     </nav>
 
     <main>
