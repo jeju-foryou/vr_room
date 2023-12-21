@@ -12,7 +12,12 @@
     <nav>
       <ul>
         {% for page in site.pages %}
-          <li><a href="{{ page.path | split: '/' | first }}">{{ page.path | split: "/" | first }}</a></li>
+          <script>
+            var pagePath = "{{ page.path }}";
+            var directoryName = pagePath.split("/")[0];
+            document.getElementById("myLink").href = directoryName;
+          </script>
+          <a id="myLink" href="">링크 텍스트</a>
         {% endfor %}
         </ul>
     </nav>
