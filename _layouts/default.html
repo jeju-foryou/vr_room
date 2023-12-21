@@ -11,9 +11,9 @@
     <nav>
       <ul>
         {% for page in site.pages %}
-        {% assign directoryName = page.path | split: '/' | first %}
-        {% if directoryName != "" %}
-          <li><a href="https://jeju-foryou.github.io/vr_room/{{ directoryName }}">{{ directoryName }}</a></li>
+        {% assign path_segments = page.path | split: '/' %}
+        {% if path_segments.size > 1 %}
+          <li><a href="https://jeju-foryou.github.io/vr_room/{{ path_segments.first }}">{{ path_segments.first }}</a></li>
         {% endif %}
       {% endfor %}
         </ul>
