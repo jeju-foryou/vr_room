@@ -12,9 +12,9 @@
     <nav>
       <ul>
         {% for page in site.pages %}
-            {% if page.path contains 'vr_room/' %}
-            <li><a href="{{ site.baseurl }}/{{ page.path }}">{{ page.name }}</a></li>
-            {% endif %}
+            <!-- {% if page.path contains 'vr_room/' %} -->
+          <li><a href="{{ site.baseurl }}/{{ page.path }}">{{ page.name }}</a></li>
+            <!-- {% endif %} -->
         {% endfor %}
         </ul>
     </nav>
