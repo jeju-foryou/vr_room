@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <header>
+      <!-- 헤더 내용 -->
+    </header>
+
+    <nav>
+      <ul>
+      {% for page in site.pages %}
+          {% if page.path contains 'vr_room/' %}
+          <li><a href="{{ vr_room.baseurl }}/{{ page.path }}">{{ page.name }}</a></li>
+          {% endif %}
+      {% endfor %}
+      </ul>
+    </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <!-- 푸터 내용 -->
+    </footer>
+  </body>
+</html>
