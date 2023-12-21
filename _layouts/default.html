@@ -8,19 +8,19 @@
     <header>
       <!-- 헤더 내용 -->
     </header>
-
     <nav>
       <ul>
         {% for page in site.pages %}
-          <li><a href="https://jeju-foryou.github.io/vr_room/{{ page.path | split: '/' | first }}">{{ page.path | split: "/" | first }}</a></li>
-        {% endfor %}
+        {% assign directoryName = page.path | split: '/' | first %}
+        {% if directoryName != "" %}
+          <li><a href="https://jeju-foryou.github.io/vr_room/{{ directoryName }}">{{ directoryName }}</a></li>
+        {% endif %}
+      {% endfor %}
         </ul>
     </nav>
-
     <main>
       {{ content }}
     </main>
-
     <footer>
       <!-- 푸터 내용 -->
     </footer>
