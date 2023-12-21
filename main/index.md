@@ -9,7 +9,7 @@ title: 메인 페이지
 
 <ul>
 {% for page in site.pages %}
-    {% if page.path contains 'svr_room/' %}
+    {% if page.path contains 'vr_room/' %}
     <li><a href="{{ site.baseurl }}/{{ page.path }}">{{ page.name }}</a></li>
     {% endif %}
 {% endfor %}
