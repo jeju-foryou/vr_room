@@ -387,7 +387,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
   cursor: pointer;
 
-  opacity: 0;
+  opacity: 1;
 
   -ms-transform: translateX(-8px);
   -webkit-transform: translateX(-8px);
