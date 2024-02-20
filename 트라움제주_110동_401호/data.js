@@ -762,8 +762,8 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": -1.1338944424786455,
-        "pitch": 0.04408508706212366,
+        "yaw": -1.4269346832123802,
+        "pitch": 0.044429881692568785,
         "fov": 1.4083983627516938
       },
       "linkHotspots": [
@@ -777,10 +777,10 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "트라움제주 110동 401호",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
